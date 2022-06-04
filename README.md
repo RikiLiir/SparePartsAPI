@@ -22,9 +22,7 @@ Kõik APis kasutatavad requestid
     
 ##### Response:
 ```javascript
-{
-    "code": "200",
-    "data": [
+[
         {
             "id": "00002356517",
             "name": "Valuveljed ",
@@ -37,10 +35,9 @@ Kõik APis kasutatavad requestid
             "sus2": 90.833,
             "mark": "KIA",
             "price": 109
-        },
-        // ...
-        ]
-}
+        }
+ ]
+
 ```
 ##### With parameters
         http://localhost:3030/parts?filterName=engine
@@ -48,19 +45,19 @@ Kõik APis kasutatavad requestid
 ##### Response:
 ```javascript
 [
-{
-"id": "0010t11",
-"name": "engine oil level check",
-"tallinn": "0",
-"tartu": "0",
-"parnu": "0",
-"rakvere": "0",
-"kunda": "0",
-"sus1": "",
-"sus2": "0",
-"mark": "",
-"price": "0"
-}
+        {
+        "id": "0010t11",
+        "name": "engine oil level check",
+        "tallinn": "0",
+        "tartu": "0",
+        "parnu": "0",
+        "rakvere": "0",
+        "kunda": "0",
+        "sus1": "",
+        "sus2": "0",
+        "mark": "",
+        "price": "0"
+        }
 ]
 ```
 
