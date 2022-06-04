@@ -9,6 +9,7 @@ Kõik APis kasutatavad requestid
 ### GET /parts
 #### requestid
 | Request | Value | Example | Description | Notes |
+| ----------- | ----------- | ----------- | ----------- | ----------- |
 | FilterName | (keyword) | filterName=engine | compares if engine is in the searched word | gives everything that includes the given word |
 | FilterId | (keyword) | filterId=000 | compares if entered characters are in the searched id | gives Id's that have the included characters |
 | SortName | (keyword) | sortName=asc | returns names ascending | asc for ascending, desc for descending |
