@@ -42,8 +42,9 @@ Kõik APis kasutatavad requestid
 }
 ```
 ##### With parameters
-http://localhost:3030/parts?filterName=engine
-Response:
+        http://localhost:3030/parts?filterName=engine
+
+##### Response:
 ```javascript
 [
 {
